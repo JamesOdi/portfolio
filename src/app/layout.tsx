@@ -34,6 +34,14 @@ export const metadata: Metadata = {
     title: 'James Odike',
     description: "This is James Odike's official portfolio page",
     siteName: 'James Odike',
+    images: [
+      {
+        url: 'https://jamesodike.com/images/profile.jpg',
+        width: 1200,
+        height: 1200,
+        alt: 'James Odike',
+      },
+    ],
   },
 };
 
