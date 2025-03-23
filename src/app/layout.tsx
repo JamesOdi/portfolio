@@ -18,22 +18,22 @@ export const metadata: Metadata = {
   title: 'James Odike',
   description: "This is James Odike's official portfolio page",
   creator: 'James Odike',
-  // metadataBase: new URL(''), // Insert the base URL
+  metadataBase: new URL('https://jamesodike.com'), // Insert the base URL
   keywords: ['Portfolio', 'Software Engineer', 'Web Developer'],
   icons: {
     icon: '/favicon.ico',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@site',
-    creator: '@creator',
+    site: 'https://jamesodike.com',
+    creator: '@Kanderel',
   },
   openGraph: {
     type: 'website',
-    url: '',
-    title: 'My Website',
-    description: 'My Website Description',
-    siteName: 'My Website',
+    url: 'https://jamesodike.com',
+    title: 'James Odike',
+    description: "This is James Odike's official portfolio page",
+    siteName: 'James Odike',
   },
 };
 
